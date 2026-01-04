@@ -1,0 +1,19 @@
+# Python 编译文件
+__pycache__/
+*.py[cod]
+*$py.class
+# VS Code 缓存（保留 settings.json，过滤其他）
+.vscode/!.vscode/settings.json
+.vscode/extensions.json
+.vscode/launch.json
+.vscode/tasks.json
+.vscode/*.log
+# 临时文件
+*.tmp
+*.bak
+# Excel/文档临时文件
+~$*.xlsx
+~$*.docx
+# 系统隐藏文件
+.DS_Store
+Thumbs.db
